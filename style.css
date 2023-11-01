@@ -1,0 +1,39 @@
+.color_nav-bar {
+    background-color: red;
+}
+
+.icon {
+    width: 25%;
+}
+
+.imagen1 {
+    width: 600px;
+    height: 400px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.imagen1:hover {
+    transform: scale(1.05);
+}
+
+#titulo{
+    position: relative;
+    top: -100px;
+    left: 10px;
+}
+
+.imagen2{
+    width: 500px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.imagen2:hover{
+    transform: scale(1.05);
+}
+
+.d-inline-flex.p-3.mx-auto {
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
